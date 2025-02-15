@@ -1,0 +1,3 @@
+FROM openjdk:17-jdk
+COPY target/student.jer student.jar
+CMD ["java","-jar","student.jar"]
