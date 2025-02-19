@@ -1,3 +1,3 @@
-FROM eclipse-temurin:17-jdk
+FROM openjdk:17-jdk
 COPY target/employee.jar workers.jar
 CMD ["java","-jar","workers.jar"]
