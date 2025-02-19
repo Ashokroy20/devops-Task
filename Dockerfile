@@ -1,3 +1,3 @@
 FROM openjdk:17-jdk
-COPY target/employee.jar workers.jar
-CMD ["java","-jar","workers.jar"]
+COPY target/employee.jar employee.jar
+CMD ["java","-jar","employee.jar"]
